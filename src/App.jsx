@@ -1,6 +1,7 @@
 import TopNav from './components/TopNav'
 import Extractor from './components/Extractor'
 import AIHelpers from './components/AIHelpers'
+import PDFTools from './components/PDFTools'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </section>
 
       <Extractor />
+      <PDFTools />
       <AIHelpers />
 
       <footer className="max-w-6xl mx-auto px-4 py-12 text-sm text-blue-300/70">
